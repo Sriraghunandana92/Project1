@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ninja's fort</title>
+    <link rel="shortcut icon" href="ninja.jpg">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Kablammo&family=Noto+Sans+Kannada:wght@100;600&family=Permanent+Marker&family=Work+Sans:ital,wght@0,100;1,100&display=swap');
+    .navigation{
+    height: 70px;
+    width: 100%;
+    border: solid;
+    display: flex;
+    align-items: center;
+    background-color: rgb(93,217,233,0.3);
+    /* opacity: 0.4; */
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    backdrop-filter: blur(5px);
+    }
+    .navigation img{
+    width: 6%;
+    height: 67px;
+    position: absolute;
+    }
+    .navigation ul{
+        position: absolute;
+        right: 20px;
+        list-style-type: none;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+    }
+    .navigation a{
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(246, 6, 6);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin: 15px;
+        opacity: 1;
+    }
+    .navigation a:hover{
+        color: rgb(241, 245, 243);
+        text-shadow: 4px 4px 7px rgb(6, 6, 6);
+        position: static;
+    }
+    .bg{
+        background-image: linear-gradient(to right, rgb(61, 2, 61),rgb(223, 88, 4), rgb(36, 9, 79));
+    }
+    /* img:hover{
+        transform: skew(2deg);
+        scale: 1.2;
+        border: 5px rgb(228, 5, 5) solid;
+    } */
+    .lg1:hover{
+        transform: skew(2deg);
+        scale: 1.2;
+        border: 6px rgb(226, 6, 6) solid;
+        position: static;
+    }
+    .lg2:hover{
+        transform: skew(2deg);
+        scale: 1.2;
+        border: 6px rgb(228, 5, 5) solid;
+        position: static;
+    }
+    .lg3:hover{
+        transform: skew(2deg);
+        scale: 1.2;
+        border: 6px rgb(228, 5, 5) solid;
+        position: static;
+    }
+    .lg4:hover{
+        transform: skew(2deg);
+        scale: 1.2;
+        border: 6px rgb(228, 5, 5) solid;
+        position: static;
+    }
+    .lg5:hover{
+        transform: skew(2deg);
+        scale: 1.2;
+        border: 6px rgb(228, 5, 5) solid;
+        position: static;
+  /* border: 3px solid #73AD21; */
+    }
+    .lg6:hover{
+        transform: skew(2deg);
+        scale: 1.2;
+        border: 6px rgb(228, 5, 5) solid;
+        position: static;
+    }
+    .lg7:hover{
+        transform: skew(2deg);
+        scale: 1.2;
+        border: 6px rgb(228, 5, 5) solid;
+        position: static;
+    }
+    .lg8:hover{
+        transform: skew(2deg);
+        scale: 1.2;
+        border: 6px rgb(228, 5, 5) solid;
+        position: static;
+    }
+    .recent:hover{
+        scale: 1.2;
+        /* transform: skew(10deg); */
+        position: absolute;
+        left: 25px;
+        /* font-family: 'Permanent Marker', cursive; */
+        
+    }
+    
+    </style>
+
+</head>
+
+<body class="bg">
+    <header class="navigation">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="search" type="submit">Search</button>
+        </form>
+      </nav>
+        <img src="ninja.jpg" alt="">
+    
+        <ul>
+            <li><a href="#home-home"><b>HOME</b></a></li>
+            <li><a href="#recent-re"><b>RECENT</b></a></li>
+            <li><a href="#top-op"><b>TOP</b></a></li>
+            <li><a href="#upcoming-up"><b>UPCOMING</b></a></li>
+            <li><a href="signin.html" ><b>LOG-IN</b></a></li>
+            <li><a href="login.html"><b>SIGN-IN</b></a></li>
+            <li><a href="#about-us"><b>ABOUT</b></a></li>
+        </ul>
+    </header><br><br>
+    <div class="home" id="home-home">
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="WhatsApp Image 2023-06-27 at 11.01.56 AM (2).jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="WhatsApp Image 2023-06-27 at 11.01.55 AM.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="WhatsApp Image 2023-06-27 at 11.01.56 AM (1).jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+    </div>
+    <div id="recent-re">
+      <h1 ></h1>
+    <h1 style="font-style: italic; color: wheat; background-color: orangered; width: 200px;font-size: 25px;padding-left: 17px; "class="recent" >RECENT GAMES</h1><br><br>
+  </div>
+    <center ><img src="WhatsApp Image 2023-06-27 at 11.02.00 AM.jpeg" alt="" height="250px" width="250px" class="lg1" >
+    <img src="WhatsApp Image 2023-06-27 at 11.02.00 AM (2).jpeg" alt="" height="250px" width="250px" class="lg2">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.55 AM.jpeg" alt="" height="250px" width="250px" class="lg3">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.56 AM (1).jpeg" alt="" height="250px" width="250px" class="lg4"><br><br>
+    <img src="WhatsApp Image 2023-06-27 at 11.01.59 AM.jpeg" alt="" height="250px" width="250px" class="lg4">
+    <img src="https://wallpapers.com/images/hd/hd-cool-battlefield-gaming-cover-ywr5cby00k9b3b0y.webp" alt="" height="250px" width="250px" class="lg4">
+    <img src="https://wallpapers.com/images/hd/gaming-screengrab-cover-iegap9kru2xlg3w0.webp" alt="" height="250px" width="250px" class="lg4">
+    <img src="https://wallpapers.com/images/hd/hd-dota-2-gaming-cover-hovjsab9cbm24bid.webp" alt="" height="250px" width="250px" class="lg4"><br><br></center><br><br>
+    <h1 style="font-style: italic; color: wheat; background-color: orangered; width: 200px;font-size: 25px;padding-left: 20px;" class="recent" id="upcoming-up">TOP GAMES</h1><br><br>
+    <center>
+      <img src="WhatsApp Image 2023-06-27 at 11.01.56 AM (2).jpeg" alt="" height="250px" width="250px" class="lg5" id="top-op">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.56 AM.jpeg" alt="" height="250px" width="250px" class="lg6">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.57 AM (1).jpeg" alt="" height="250px" width="250px" class="lg7">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.58 AM (1).jpeg" alt="" height="250px" width="250px" class="lg8"><br><br>
+    <img src="WhatsApp Image 2023-06-27 at 11.01.59 AM (1).jpeg" alt="" height="250px" width="250px" class="lg9">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.59 AM.jpeg" alt="" height="250px" width="250px" class="lg10">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.58 AM.jpeg" alt="" height="250px" width="250px" class="lg11">
+    <img src="WhatsApp Image 2023-06-27 at 11.02.00 AM (1).jpeg" alt="" height="250px" width="250px" class="lg12"><br><br></center>
+    </center><br><br>
+    
+    <h1 style="font-style: italic; color: wheat; background-color: orangered; width: 200px;font-size: 25px;padding-left: 20px;" class="recent" >UPCOMING</h1><br><br>
+    <center>
+    <img src="WhatsApp Image 2023-06-27 at 11.01.56 AM (2).jpeg" alt="" height="250px" width="250px" class="lg5" id="upcoming-up">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.56 AM.jpeg" alt="" height="250px" width="250px" class="lg6">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.57 AM (1).jpeg" alt="" height="250px" width="250px" class="lg7">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.58 AM (1).jpeg" alt="" height="250px" width="250px" class="lg8"><br><br>
+    <img src="WhatsApp Image 2023-06-27 at 11.01.59 AM (1).jpeg" alt="" height="250px" width="250px" class="lg9">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.59 AM.jpeg" alt="" height="250px" width="250px" class="lg10">
+    <img src="WhatsApp Image 2023-06-27 at 11.01.58 AM.jpeg" alt="" height="250px" width="250px" class="lg11">
+    <img src="WhatsApp Image 2023-06-27 at 11.02.00 AM (1).jpeg" alt="" height="250px" width="250px" class="lg12"><br><br></center>
+    
+    
+    
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <div class="about-section">
+            <h1 style="text-align:center" id="about-us"><u>-:About Us:-</u></h1>
+            <h2>follow us on:-</h2>
+            <a href="https//:www.instagram.com" class="fa fa-instagram"></a>
+            <a href="https//:www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https//:www.twitter.com" class="fa fa-twitter"></a>
+            <h2 >Our Team</h2>
+            <p>
+              Our team is the driving force behind our success. Comprised of talented individuals from diverse backgrounds, we come together with a shared goal: to deliver excellence in everything we do.</p>
+          </div>
+          <img src="ninja.jpg" alt="Jane" style="width:6%">
+          <div class="container">
+            <h2>Sriraghunandana</h2>
+            <p class="title">CEO & Founder</p>
+            <p>Welcome to our company, where passion meets excellence. We are a dedicated team of professionals committed to delivering exceptional products/services to our valued customers.
+
+            Our journey began with a simple vision: to make a difference in the lives of people through our innovative solutions. Today, we stand proud as a leading provider in our industry, driven by our core values of integrity, quality, and customer satisfaction.</p>
+            <p>sriraghunandana2001@gmail.com</p>
+            <p><button class="button"><a href="mailto:sriraghunandana2001@gmail.com">mail-us</a></button></p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column" >
+        <div class="card">
+          <img src="ninja.jpg" alt="Mike" style="width:6%">
+          <div class="container">
+            <h2>Sriraghunandana</h2>
+            <p class="title">Art Director</p>
+            <p>Our team comprises skilled individuals who are passionate about what they do. From our talented designers and developers to our dedicated customer support team, each member plays a crucial role in delivering excellence at every step.
+
+            Innovation lies at the heart of our organization. We constantly strive to push boundaries, explore new possibilities, and create groundbreaking solutions that meet the evolving needs of our customers.
+             
+              </p>
+            <p>sriraghunandana2001@gmail.com</p>
+            <p><button class="button"><a href="mailto:sriraghunandana2001@gmail.com">mail-us</a></button></p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="column">
+        <div class="card">
+          <div class="container">
+          </div>
+          <h2 style="text-align:center;font-style: italic;font-size: medium;">Thankyou Please visit again....!!</h2>
+        </div>
+        
+      </div>
+</body>
+</html>

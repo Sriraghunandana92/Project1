@@ -1,0 +1,108 @@
+.home .carousel-inner{
+    width: 80%;
+    height: 500px;
+    
+}
+.home{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+    margin: 30px 0px 0px 225px;
+}
+.carousel-control-next-icon{
+    position: relative;
+    right: 250px;
+}
+.form-inline{
+    position: relative;
+    left: 85px;
+    top:12px;
+}
+.recent:hover{
+  animation: loader 1s ease 0s ;
+}
+@keyframes loader {
+  from{
+    width: 18%;
+}
+to{
+    width: 30%;
+    
+}
+  
+}
+.search{
+    position: relative;
+    left: 210px;
+    top: -33px;
+    background-color: rgb(242, 240, 244);
+}
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+  @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+.ft14 {
+font-size: 44px !important;
+  color:red;
+  
+}
+
+
+.ft60 {
+font-size: 60px !important;
+  }
+.clr-blue{color:rgb(251, 251, 252);}
+.clr-prl{color:rgb(247, 245, 247);}
+.bg-bl.clr-prl{color:rgb(250, 248, 250);}
+
+.bg-blue{
+background-color: #0f0700 !important;
+  color:#de5e02;
+}
+
+.i{
+   color:yellow !important;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram{
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .navigation ul:hover a{
+    color: black;
+  }
+  .navigation a:hover {
+    color: black;
+  }
+
+  .navigation li:hover a{
+    color: yellow;
+  }
+
+
